@@ -1,0 +1,70 @@
+*{
+    padding : 0px;
+    margin : 0px;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 8px;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-color: #211951;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-purple{
+    width: 16rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #AED2FF;
+    position: relative;
+}
+
+.dark{
+    width: 13rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #211951;
+}
+
+.small-purple{
+    width: 5rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: #AED2FF;
+    position: absolute;
+    top : 6rem;
+    left: -2.5rem;
+    box-shadow: 0.2rem 0.2rem 1rem 0.1rem #AED2FF;
+}
+
+.neon-loader{
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 90deg;
+    }
+    50% {
+        rotate: 180deg;
+    }
+    75%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
+
+
+
+
